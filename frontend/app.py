@@ -1,5 +1,3 @@
-# to run this file got ot the file location in the terminal and use the command: streamlit run app.py
-
 import streamlit as st
 from add_update_UI import add_update_tab
 from analytics_by_category import analytics_by_category_tab
