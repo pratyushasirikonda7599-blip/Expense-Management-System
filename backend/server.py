@@ -21,8 +21,6 @@ app = FastAPI()
 app = FastAPI()
 
 
-# the response_model catches the response from the function in the form of list(as the return datatype) and displays only the
-# required items as mentioned in the "Expense" pydantic function
 @app.get("/expenses/{expense_date}", response_model = List[Expense])
 def get_expenses(expense_date: date):
     expenses = db_helper.fetch_expense_for_date(expense_date)
