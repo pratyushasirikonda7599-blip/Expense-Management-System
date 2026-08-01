@@ -1,5 +1,3 @@
-# to run this file in terminal use the command: uvicorn server:app --reload
-
 from fastapi import FastAPI, HTTPException
 from datetime import date
 import db_helper
