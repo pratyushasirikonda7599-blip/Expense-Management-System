@@ -7,8 +7,7 @@ logger = setup_logger('db_helper')
 @contextmanager
 def get_db_cursor(commit = False):
     connection = mysql.connector.connect(
-        host = "127.0.0.1", # As mysql is in parallels we provide IPv4 address of parallels as-host
-        # host = "localhost", # this works if mysql workbench is installed in mac
+        host = "127.0.0.1",
         user = "root",
         passwd = "root@123",
         database = "expense_manager"
