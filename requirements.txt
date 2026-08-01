@@ -1,7 +1,3 @@
-# this file is used to mention all the packages along with their versions are mentioned here
-# to get the version of the package use the command(in terminal): "pip freeze | grep streamlit"
-# if someone wants to install all the packages for this project they can simply run the command:pip install -r requirements.txt
-
 streamlit==1.60.0
 fastapi==0.141.1
 pydantic==2.13.4
